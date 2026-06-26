@@ -1,0 +1,40 @@
+body {
+    font-size: 15pt;
+    background: #202020;
+}
+.calbody{
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px, #626D578C, solid;
+}
+input{
+    width: 300px;
+    padding: 10px;
+    margin-left: 5px;
+    display: block;
+    border-radius: 3px;
+    font-size: 20px;
+    border:1px,#393F35DE,solid;
+    background: #18141EF2;
+text-align: right;
+border-radius: 10px;
+margin-bottom: 10px;
+color: white;
+}
+
+button{
+    margin-top: 3.7px;
+width:60px;
+height: 60px;
+margin-left:10px;
+border-radius: 30px;
+border: 1px,solid, black;
+font-size: 20px;
+background: #D29D2A;
+color: white;
+}
+.clear{
+    background: #38383B;
+}
+
