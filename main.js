@@ -1,6 +1,6 @@
 let display =document.getElementById('disp')
 function appendValue(val) {
-  if (val==='0'&&val!=='.') {
+  if (val==='0'&& val==='00' && val!=='.') {
        display.value=val   
   }
   else {
@@ -11,5 +11,11 @@ function clearDisplay() {
 display.value=''
 }
 function calculate() {
-        display.value=eval(display.value)
+        if (display.value!='') {
+              display.value=eval(display.value)  
+        }
+        else {
+                display.value=''
+        }
+
 }

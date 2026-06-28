@@ -12,8 +12,7 @@
 <body>
   <div class="calbody">
   <input type="text" readonly placeholder="0" id="disp">
-  <button type="submit" class="clear" 
-  onclick="clearDisplay()">AC</button>
+ 
 <button onclick="appendValue('1')">1</button>
 
    <button  onclick="appendValue('2')">2</button> 
@@ -30,7 +29,11 @@
    <button  onclick="appendValue('/')" class="operator">/</button>
    <button  onclick="appendValue('0')" class="zero">0</button>
    <button  onclick="appendValue('.')" class="operator">.</button>
-   <button class="operator" onclick="calculate()">=</button>
+   <button onclick="display.value+='00'" class="zero">00</button >
+    <button type="submit" class="clear" 
+  onclick="clearDisplay()">AC</button>
+   <button class="operator" onclick="calculate()"id="eq">=</button>
+   <button onclick="display.value=display.value.toString().slice(0,-1)">del</button>
        </div>
   <script src="main.js">
     

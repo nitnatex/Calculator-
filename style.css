@@ -5,7 +5,7 @@ body {
 .calbody{
     color: white;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 20px;
     border: 1px, #626D578C, solid;
 }
 input{
@@ -37,4 +37,6 @@ color: white;
 .clear{
     background: #38383B;
 }
-
+#eq{
+   width: 135px; 
+}
